@@ -49,22 +49,22 @@ const Navbar = () => {
               </button>
               {dropdownOpen === 'projects' && (
                 <div className="absolute left-0 mt-2 w-56 text-white shadow-2xl rounded-lg py-3 z-10 animate-fade-in">
-                  <a href="#" className="block px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
+                  <a href="#" className="px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
                     <img className="w-8" src={agni} alt="" /> AgniAstra
                   </a>
-                  <a href="#" className="block px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
+                  <a href="#" className="px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
                     <img className="w-8" src={altair} alt="" /> Altair
                   </a>
-                  <a href="#" className="block px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
+                  <a href="#" className="px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
                   <img className="w-8" src={ray} alt="" /> Rayquaza
                   </a>
-                  <a href="#" className="block px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
+                  <a href="#" className="px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
                   <img className="w-8" src={pheonix} alt="" /> Pheonix
                   </a>
-                  <a href="#" className="block px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
+                  <a href="#" className="px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
                   <img className="w-8" src={arya} alt="" /> Arya
                   </a>
-                  <a href="#" className="block px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
+                  <a href="#" className="px-4 py-2 hover:bg-orange-500 rounded-2xl transition flex items-center gap-2">
                   <img className="w-8" src={vyom} alt="" /> Vyom
                   </a>
                 </div>
